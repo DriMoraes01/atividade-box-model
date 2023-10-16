@@ -3,13 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Box Model</title>
     <style>
-       
+       .container {
+            background-image: url('flower.png');
+            height: 400px;
+            width: 400px;
+            margin: 50px;
+            /*padding: 10px; */    
+            border:  20px ridge rgb(247, 175, 82)  ;
+            box-shadow: inset 10px 10px 10px 10px rgb(255, 224, 140);            
+            outline-width: 20px; 
+            outline-style: double;
+            outline-color: brown;
+        }
+
+       p {
+            text-align: center; 
+            padding-top: 100px;
+            font-size: 50px;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            text-shadow: black 0.1em 0.1em 0.2em;
+            font-style: italic;
+       }
     </style>
 </head>
 <body>
-    <div>
+    <div class="container">
         <p>Descodificadas</p> 
     </div>
    
